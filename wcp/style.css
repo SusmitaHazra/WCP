@@ -1,0 +1,250 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+
+}
+
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header{
+    background-color:  rgb(42, 82, 97);
+    padding: 20px;
+    text-align: left;
+  }
+h2{
+      text-align: center;
+      color: rgb(37, 185, 185);
+      float: right;
+      width: 1100px;
+      height: 100px; 
+      font-size: 50px;
+      font-weight: bold;
+  }
+/*nav2*/
+  #mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    text-align: left;
+    
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  #home {
+    bottom: 430px;
+    background-color: rgb(19, 52, 64);
+  }
+  
+  #contact {
+    bottom: 290px;
+    background-color:rgb(79, 163, 196);
+  }
+  #about {
+    bottom:360px;
+    background-color: rgb(1, 108, 161);
+  }
+  
+  
+
+ 
+  /*nav2*/
+  /*Navbar1 start*/
+  .navbar{
+    background-color:skyblue;
+  }
+  
+    .button {
+        padding: 10px 25px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #113065;
+        background-color:#81b1ce;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #aad6ec;
+        float: right;
+        font-weight: bold;
+      }
+      
+      .button:hover {background-color: #eaa0a2}
+      
+      .button:active {
+        background-color: #eaa0a2;
+        box-shadow: 0 5px#eaa0a2;
+        transform: translateY(4px);
+      }
+
+      input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 30px;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px; 
+        background-color: #aabde7;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        float:right;
+      }
+      
+      input[type=text]:focus {
+        width: 50%;
+      }
+        /*Navbar1 end*/
+      /*--Home Start*/
+      
+      .container {
+
+        position: relative;
+        filter: blur(2.5px);
+       -webkit-filter: blur(2.5px);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       
+
+      }
+      
+      .text-block {
+       background-color:transparent;
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+
+      }
+
+       /*--Home End--*/
+      /*---About
+      
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+      
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+        font-size: 20px;
+      }
+      
+      .contant-box {
+        padding: 0 16px;
+        font-size: 15px;
+      }
+      h3{
+        font-size: 20px;
+        color:rgb(35, 3, 55);
+      }
+      .contant-box::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color: rgb(35, 3, 55);
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: rgb(4, 2, 38);
+        background-color: #5ad8f8;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      
+      .button:hover {
+        background-color:blueviolet;
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+      /*---About End---*/
+      /*---WWD start
+
+      .wwd-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+        font-size: 20px;
+      }
+
+
+
+      /*---WWD end---*/
+      /*---Counting start---*/
+
+      .counting-section {
+        padding: 30px;
+        text-align: center;
+        background-color: #303e5d;
+        color: white;
+        font-size: 10px;
+      }
+
+      /*---Counting end---*/
+      /*---Help start---*/
+
+      .help-section {
+        background-image: url(pp4.jpg);
+        padding: 50px;
+        text-align: center;
+        background-color: #aabde7;
+        color: white;
+        font-size: 30px;
+      }
+
+      /*---help end---*/
